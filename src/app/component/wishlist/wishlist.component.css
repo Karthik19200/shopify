@@ -1,0 +1,97 @@
+.container
+{
+	width:100%;
+	
+	height:auto;
+}
+
+.card
+{
+height: 70vh;
+width: 78%;
+padding: 25px;
+margin: 25px;
+border: none;
+margin-left: 120px;
+
+}
+.card button
+{
+
+width:200px;
+height: 180px;
+background-color: rgb(255, 0, 111);
+color: aliceblue;
+border: none;
+margin-left: 40%;
+}
+
+
+.card img
+{
+width:60%;
+height:90%;
+margin-left: 20%;
+}
+.card h4
+{
+
+margin-left: 40%;
+}
+.card-table
+{
+position: ralative;
+display: flex;
+flex-direction: column;
+width: 80%;
+word-wrap: break-word;
+background-color: white;
+background-clip: border-box;
+border: 1px solid rgba(0,0,0,0.3);
+margin-left: 10%;
+}
+body {
+	
+	text-shadow: 0 1px 0 #fff;
+}
+
+strong {
+	font-weight: bold; 
+}
+
+
+
+table {
+	background: none;
+	border-collapse: separate;
+	box-shadow:none;
+	font-size: 12px;
+	line-height: 24px auto;
+	margin: 30px auto;
+	text-align: left;
+	width: 90%;
+}	
+
+th {
+	
+	border-left: 1px ;
+	border-right: 1px ;
+	border-top: 1px ;
+	border-bottom: 1px;
+	box-shadow: none;
+	color:#000;
+    font-weight: bold;
+	padding: 10px 20px ;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+td {
+	border-right: 1px ;
+	border-left: 1px;
+	border-top: 1px ;
+	border-bottom: 1px;
+	padding: 10px 20px ;
+	position: relative;
+	
+}

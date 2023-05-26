@@ -1,0 +1,45 @@
+<ng-container *ngIf="wishproduct.length !=0">
+    <div class="card-table">
+        <div class="cart-product ">
+    <table>
+        <thead>
+          <tr>
+            <th>SR. NO</th>
+            <th>PRODUCT NAME</th>
+            <th>PRODUCT IMAGE</th>
+            <th>DESCRIPTION</th>
+            <th>PRICE</th>
+
+            <th>TOTAL</th>
+            <th>ACTION</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr *ngFor="let item of wishproduct; let i= index">
+            <td>{{i+1}}</td>
+            <td>{{item.title}}</td>
+            <td> <img style="width: 120px;" src="{{item.image}}" alt=""></td>
+            <td>{{item.description}}</td>
+            <td>{{item.price}}</td>
+
+            <td>{{item.total}}</td>
+            
+          </tr>
+          
+        </tbody>
+      </table>
+    </div>
+    </div>
+</ng-container>
+
+<ng-container *ngIf="wishproduct.length == 0">
+<div class="container">
+<div class="card">
+    
+    <img src="/assets/cartimage.jpg">
+    <h4>Your wishlist is Empty !!!!</h4>
+    <br>
+    <button routerLink="/product" class="bttn" type="" > Shop Now </button>
+</div>
+</div>
+</ng-container>

@@ -1,0 +1,45 @@
+
+    
+
+
+  <nav class="navbar navbar-expand-lg bg-* justify-content-center ">
+    <div class="container-fluid shadow-sm">
+      <a class="navbar-brand" href="#"><h4>Shopify</h4></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-center" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0 ms-auto" >
+         
+          <li class="nav-item" id="navlink">
+            <a class="nav-link active fs-5 fw-bold" href="#home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bold" href="#dish" >Arrivals</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bold"  href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bold"  href="#menu">Menu</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bold "  routerLink="/cart"><i class="fa-solid fa-cart-shopping icon-link-hover"></i><b style="color:red">{{totalitem}}</b> </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active fs-5 fw-bold" routerLink="/wishlist" style="color:rgb(245, 8, 8)" href="#order"><i class="fa-solid fa-heart"></i><b style="color:red">{{wishcount}}</b></a>
+          </li>
+
+        </ul>
+        
+       <input type="text" class="inputtext" placeholder="search products" [(ngModel)]="searchTerm" (keyup)="search($event)"><i class="fa-solid fa-magnifying-glass" id="magnifing"></i>
+       
+      </div>
+    </div>
+  </nav>
+   
+        
+
+
+
+   

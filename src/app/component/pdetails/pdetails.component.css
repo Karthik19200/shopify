@@ -1,0 +1,101 @@
+
+table {
+	background: none;
+	border-collapse: separate;
+	box-shadow:none;
+	font-size: 12px;
+	line-height: 24px auto;
+	margin: 30px auto;
+	text-align: left;
+	width: 1200px;
+}	
+
+th {
+	
+	border-left: 1px ;
+	border-right: 1px ;
+	border-top: 1px ;
+	border-bottom: 1px;
+	box-shadow: none;
+	color:#000;
+  font-weight: bold;
+	padding: 10px 20px ;
+	position: relative;
+	text-shadow: 0 1px 0 #000;	
+}
+
+td {
+	border-right: 1px ;
+	border-left: 1px;
+	border-top: 1px ;
+	border-bottom: 1px;
+	padding: 10px 20px ;
+	position: relative;
+	
+}
+.btn button
+{
+	border-radius: 15px;
+	background-color: black;
+	color:white;
+	margin-left: 120px;
+	height: 40px;
+	width:100px;
+}
+.btn  button:hover
+{
+background-color: #0f1fff;
+color: aliceblue;
+}
+.parent-content
+{
+	position: absolute;
+	top:20%;
+	width:50%;
+	margin-left: 40%;
+	padding: 10px;
+}
+.content
+{	
+	font-size: 20px;
+	font-weight: 50px;	
+}
+.btn-1 button
+{
+	width:10%;
+	background-color:black;
+	margin-left: 10%;
+	height:40px;
+	
+
+	color:white
+}
+/* .content2
+{
+	position: absolute;
+	z-index: 10;
+	bottom:50%;
+	overflow: break-word;
+	left:40%;
+	right: 5%;
+	top:50%;
+}
+.content3
+{
+	position: absolute;
+	z-index: 10;
+	bottom:50%;
+	overflow: break-word;
+	left:40%;
+	right: 5%;
+	top:55%;
+	font-size: 50px;
+	font-weight: 50px;
+}
+.content4
+{
+	position: absolute;
+	z-index: 10;
+	top:70%;
+	left:40%;
+} */

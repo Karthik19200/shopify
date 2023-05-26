@@ -1,0 +1,84 @@
+.navb img
+{
+position: absolute;
+z-index: 10;
+top:22px;
+width:120px;
+height:35px;
+margin-left:260px;
+border-top:20px;
+}
+.form-controls
+{
+ border-style: none;
+width:500px;
+height: 30px;
+margin-left:400px;
+margin-bottom:15px;
+margin-top: 15px;
+}
+.fa-magnifying-glass{
+position: absolute;
+z-index:10;
+right:35%;
+color:blue;
+top:32px;
+}
+
+.btn-primary{
+position: absolute;
+z-index: 10;
+left:90%;
+color: white;
+top:32px;
+background: none;
+text-decoration: none;
+border-style: none;
+font-size: 20px;
+}
+.inputtext
+{
+    width:20%;
+    margin-right: 10%;
+}
+#magnifing
+{
+   position: absolute;
+   right:8%;
+   top:20px;
+   font-size: 20px;
+   color:black;
+}
+
+/* .fa-cart-shopping{
+
+    position: absolute;
+    top:5%;
+    color:black;
+
+} */
+
+@media(max-width:700px){
+.form-controls{
+    width: 300px;
+    height: 25px;
+    margin-left: 100px;
+}
+.navb img{
+    flex-basis: 100%;
+    margin-bottom: 10px;
+    text-align: center;
+    margin-left: 50px;
+    width:100px;
+    margin-left: 10px;
+}
+.fa-magnifying-glass
+{
+    position: absolute;
+    z-index:10;
+    right:18%;
+    color:blue;
+    top:32px;
+
+}
+}
